@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+    }
+    body{
+      background-size: cover;
+      background-color: #fff;
+    }
+
+    /*======== Start of Menu ======*/
+    nav{
+      width: 100%;
+      height: 54px;
+      background-color: #253237;
+    }
+    nav ul{
+      float: left;  
+      background-color: #253237;
+    }
+    nav ul li{
+      float: left;
+      list-style: none;
+      position: relative;
+    }
+    nav ul li a{
+      display: block;
+      font-family: calibri;
+      color: #222;
+      font-size: 18px;
+      padding: 16px 16px;
+      text-decoration: none;
+      font-weight: 4000;
+      color: #fff;
+    }
+    nav ul li ul{
+      display: none;
+      position: absolute;
+      background-color: white;
+      padding: 0px;
+      border-radius: 0px 0px 4px 4px;
+    }
+    nav ul li a:hover{
+      opacity: 0.5;
+      text-align: center;
+    }
+    nav ul li:hover ul{
+      display: block;
+    }
+    nav ul li ul a{
+      padding: 8px 12px;
+      color: #222;
+    }
+    nav ul li ul li{
+      width: 150px;
+      border-radius: 4px;
+    }
+    nav ul li ul a:hover{
+      background-color: #f3f3f3;
+    }
+    .logo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    /*======== End of Menu ======*/
+  
+/*======== Start of TALENT TRAINING PAGE ======*/
+.talent_main_wrapper{
+    margin: 40px 40px 40px 50px;
+}
+.talent_main_wrapper hr{
+  width: 65%; 
+  color: 1px dotted #949494;
+  margin-right: auto;
+  margin-left: auto;
+}
+.talent_section_1{
+  width: 100%;
+
+  margin: 20px 0px 20px 0px;
+  font-size: 17px;
+  text-align: center;
+}
+.talent_section_1 h1{
+    font-size: 36px;
+    text-align: center;
+    margin: -15px 10px 16px 10px;
+    padding: 5px;
+}
+.talent_section_1 h2{
+    font-size: 28px;
+    text-align: center;
+    margin: 0px;
+}
+.talent_section_1 p{
+    font-size: 17px;
+    text-align: justify;
+}
+.talent_img{
+    width: 35%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    position: relative;
+    margin-bottom: 70px;
+}
+.talent_text{
+  width: 60%;
+  float: left;
+  margin: 5px;
+  padding-right: 15px;
+  text-align: justify;
+}
+/*======== END of TALENT TRAINING PAGE ======*/
+
+/*======== Start of SPORT TRAINING PAGE ======*/
+.sport_main_wrapper{
+  margin: 40px 40px 40px 50px;
+}
+.sport_main_wrapper hr{
+width: 65%; 
+color: 1px dotted #949494;
+margin-right: auto;
+margin-left: auto;
+}
+.sport_section{
+width: 100%;
+margin: 20px 0px 20px 0px;
+font-size: 17px;
+text-align: center;
+}
+.sport_section h1{
+  font-size: 36px;
+  text-align: center;
+  margin: -15px 10px 16px 10px;
+  padding: 5px;
+}
+.sport_section h2{
+  font-size: 28px;
+  text-align: center;
+  margin: 0px;
+}
+.sport_section p{
+  font-size: 17px;
+  text-align: justify;
+}
+.sport_img{
+  width: 35%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+  position: relative;
+  margin-bottom: 70px;
+}
+.sport_text{
+width: 60%;
+float: left;
+margin: 5px;
+padding-right: 15px;
+text-align: justify;
+}
+.parent_participation h2{
+  font-size: 28px;
+  text-align: center;
+  margin: 4px;
+}
+
+/*======== END of SPORT TRAINING PAGE ======*/
+
+/*======== Start of SPORT TRAINING PAGE ======*/
+.tours_main_wrapper{
+  margin: 40px 40px 40px 50px;
+}
+
+.tours_section{
+width: 100%;
+margin: 20px 0px 20px 0px;
+font-size: 17px;
+text-align: center;
+}
+.tours_section h1{
+  font-size: 36px;
+  text-align: center;
+  margin: -15px 10px 16px 10px;
+  padding: 5px;
+}
+.tours_section h2{
+  font-size: 28px;
+  text-align: center;
+  margin: 0px;
+}
+.tours_section p{
+  font-size: 17px;
+  text-align: justify;
+}
+.tours_img{
+  width: 35%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+  position: relative;
+  margin-bottom: 70px;
+}
+.tours_text{
+width: 60%;
+float: left;
+margin: 5px;
+padding-right: 15px;
+text-align: justify;
+}
+
+
+/*======== END of SPORT TRAINING PAGE ======*/
+
+
+/*======== Start of FOOTER Section ======*/
+footer{
+  clear: both;
+  width: 100%;
+  color: #333333;
+  background-color: lightgrey;
+}
+.footer_main_container{
+  margin-left: 0px;
+}
+.footer_container{
+  width: 20%;
+  float: left;
+  margin: 10px 2px 10px 2px;
+  text-align: left;
+  text-decoration: none;;
+}
+.footer_container_about_us{
+  width: 50%;
+  float: left;
+  margin: 10px;
+}
+.footer_container p{
+margin-top: 6px;
+}
+.footer_copyright{
+  clear: both;
+  width: auto;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 10px 0px;
+  text-align: center;
+}
+/*======== END of FOOTER Section ======*/

@@ -1,0 +1,202 @@
+*{
+margin: 0;
+padding: 0;
+font-family: calibri;
+}
+body{
+  background-size: cover;
+  background-color: #fff;
+}
+
+/*======== Start of Menu ======*/
+nav{
+  width: 100%;
+  height: 54px;
+  background-color: #253237;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav ul{
+  float: left;  
+  background-color: #253237;
+}
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+nav ul li a{
+  display: block;
+  font-family: calibri;
+  color: #222;
+  font-size: 18px;
+  padding: 16px 12px;
+  text-decoration: none;
+  font-weight: 4000;
+  color: #fff;
+}
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 0px;
+  border-radius: 0px 0px 4px 4px;
+}
+nav ul li a:hover{
+  opacity: 0.5;
+  text-align: center;
+}
+nav ul li:hover ul{
+  display: block;
+}
+nav ul li ul a{
+  padding: 8px 12px;
+  color: #222;
+}
+nav ul li ul li{
+  width: 150px;
+  border-radius: 4px;
+}
+nav ul li ul a:hover{
+  background-color: #f3f3f3;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*======== End of Menu ======*/
+
+/*======== Start of Index Page======*/
+/*-----SECTION 1------*/
+.music_image{
+  background-position: center;
+  background-size: cover;
+  margin-right: 0px;
+}
+.home_section_1{
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-left: 30px;
+  font-family: calibri;
+}
+.home_section_2 h1{
+  color: #242526;
+  font-size: 300px;
+}
+.home_container{
+  width: 30%;
+  float: left;
+  margin: 20px 4px 20px 4px;
+  border: 1px solid #f3f3f3;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  padding: 6px;
+}
+.home_container h2{
+  text-align: center;
+  font-size: 28px;
+}
+.home_container p{
+  text-align: justify;
+  padding-top: 15px;
+  font-size: 17px;
+}
+/*------SECTION 2-----*/
+.home_section_2{
+  clear: left;
+  width: 95%;
+  margin: 0px 0px 380px 60px;
+  font-size: 17px;
+  text-align: center;
+}
+.home_section_2 h1{
+  text-align: center;
+  font-size: 45px;
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+}
+.home_section_2 h2{
+  text-align: center;
+  font-size: 34px;
+  margin: 18px;
+  padding: 2px;
+  color: #3f3f3f;
+}
+.home_container_2 p{
+  font-size: 17px;
+  margin: 0px 2px 0px 2px;
+  }
+.home_container_img_kindergarten{
+width: 40%;
+display: block;
+margin-right: auto;
+margin-left: auto;
+float: left;
+position: relative;
+margin-bottom: 70px;
+}
+.home_container_img_daycare{
+  width: 40%;
+  display: block;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+}
+.home_container_2_text{
+  width: 50%;
+  float: left;
+  margin: 5px;
+  padding-right: 15px;
+  text-align: justify;
+}
+.home_container_2_text_daycare{
+  width: 45%;
+  float: left;
+ 
+  margin: -30px -10px 0px 80px;
+  padding: 10px;
+  text-align: justify;
+}
+
+/*-----End of Section 2----*/
+/*======== End of Index Page ======*/
+
+/*======== Start of FOOTER Section ======*/
+footer{
+  clear: both;
+  width: 100%;
+  color: #333333;
+  background-color: lightgrey;
+}
+.footer_main_container{
+  margin-left: 0px;
+}
+.footer_container{
+  width: 20%;
+  float: left;
+  margin: 10px 2px 10px 2px;
+  text-align: left;
+  text-decoration: none;;
+}
+.footer_container_about_us{
+  width: 50%;
+  float: left;
+  margin: 10px;
+}
+.footer_container p{
+margin-top: 6px;
+}
+.footer_copyright{
+  clear: both;
+  width: auto;
+  margin: 15px 10px 0px 10px;
+  padding: 10px;
+  text-align: center;
+}
+/*======== END of FOOTER Section ======*/
+
+/*=======================================TEST========*/

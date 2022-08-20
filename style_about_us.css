@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: calibri;
+  }
+  body{
+    background-size: cover;
+    background-color: #fff;
+  }
+  
+  /*======== Start of Menu ======*/
+  nav{
+    width: 100%;
+    height: 54px;
+    background-color: #253237;
+  }
+  nav ul{
+    float: left;  
+  }
+  nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+  }
+  nav ul li a{
+    display: block;
+    font-family: calibri;
+    color: #222;
+    font-size: 18px;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-weight: 4000;
+    color: #fff;
+  }
+  nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 0px;
+    border-radius: 0px 0px 4px 4px;
+  }
+  nav ul li a:hover{
+    opacity: 0.5;
+    text-align: center;
+  }
+  nav ul li:hover ul{
+    display: block;
+  }
+  nav ul li ul a{
+    padding: 8px 12px;
+    color: #222;
+  }
+  nav ul li ul li{
+    width: 150px;
+    border-radius: 4px;
+  }
+  nav ul li ul a:hover{
+    background-color: #f3f3f3;
+  }
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /*======== End of Menu ======*/
+ 
+/*======== Start of About Us Page Section 1 ======*/
+.about_us_section_1{
+    width: 90%;
+    padding: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+.about_us_section_1 h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+}
+.about_us_section_1 p{
+    font-size: 18px;
+    margin: 10px;
+    text-align: justify;
+}
+.wrapingimage{
+    float: left;
+    margin: 30px 12px 3px 4px;
+}
+img{
+    border-radius: 8px;
+}
+/*======== End of of About Us Page Section 1 ======*/
+
+/*======== Start of Mission Page Section 1 ======*/
+.mission_section_1{
+  margin: 40px 60px 60px 60px;
+  padding: 5px;
+}
+.mission_section_1 h1{
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.mission_section_1 p{
+  padding: 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+/*======== End of Mission Page Section 1 ======*/
+/*======== Start of Vision Page Section 1 ======*/
+.vision_section_1{
+  margin: 40px 60px 60px 60px;
+  padding: 5px;
+}
+.vision_section_1 h1{
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.vision_section_1 p{
+  padding: 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+/*======== End of Vision Page Section 1 ======*/
+/*======== Start of Core Values Page Section 1 ======*/
+.core_values_section_1{
+  margin: 40px 60px 60px 60px;
+  padding: 5px;
+}
+.core_values_section_1 h1{
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.core_values_section_1 p{
+  padding: 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+/*======== End of Core Values Page Section 1 ======*/
+/*======== Start of Strategic Page Section 1 ======*/
+.strategic_plan_section_1{
+  margin: 40px 60px 60px 60px;
+  padding: 5px;
+}
+.strategic_plan_section_1 h1{
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.strategic_plan_section_1 p{
+  padding: 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+/*======== End of Strategic Page Section 1 ======*/
+
+
+/*======== Start of FOOTER Section ======*/
+footer{
+  clear: both;
+  width: 100%;
+  color: #333333;
+  background-color: lightgrey;
+}
+.footer_main_container{
+  margin-left: 0px;
+}
+.footer_container{
+  width: 20%;
+  float: left;
+  margin: 10px 2px 10px 2px;
+  text-align: left;
+  text-decoration: none;;
+}
+.footer_container_about_us{
+  width: 50%;
+  float: left;
+  margin: 10px;
+}
+.footer_container p{
+margin-top: 6px;
+}
+.footer_copyright{
+  clear: both;
+  width: auto;
+  margin: 15px 10px 0px 10px;
+  padding: 10px;
+  text-align: center;
+}
+/*======== END of FOOTER Section ======*/

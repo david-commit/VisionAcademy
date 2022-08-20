@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+    }
+    body{
+      background-size: cover;
+      background-color: #fff;
+      font-family: 'Luckiest Guy';
+    }
+    
+    /*======== Start of Menu ======*/
+    nav{
+      width: 100%;
+      height: 54px;
+      background-color: #253237;
+    }
+    nav ul{
+      float: left;  
+      background-color: #253237;
+    }
+    nav ul li{
+      float: left;
+      list-style: none;
+      position: relative;
+    }
+    nav ul li a{
+      display: block;
+      font-family: calibri;
+      color: #222;
+      font-size: 18px;
+      padding: 16px 16px;
+      text-decoration: none;
+      font-weight: 4000;
+      color: #fff;
+    }
+    nav ul li ul{
+      display: none;
+      position: absolute;
+      background-color: white;
+      padding: 0px;
+      border-radius: 0px 0px 4px 4px;
+    }
+    nav ul li a:hover{
+      opacity: 0.5;
+      text-align: center;
+    }
+    nav ul li:hover ul{
+      display: block;
+    }
+    nav ul li ul a{
+      padding: 8px 12px;
+      color: #222;
+    }
+    nav ul li ul li{
+      width: 150px;
+      border-radius: 4px;
+    }
+    nav ul li ul a:hover{
+      background-color: #f3f3f3;
+    }
+    .logo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    /*======== End of Menu ======*/
+    
+    /*======== Start of LEARN PAGE ======*/
+    .learn_menu{
+        padding: 20px;
+        overflow: hidden;
+        background-color: #f54141;
+        font-family: 'Comic Sans MS';
+    }
+    .learn_menu h1{
+        font-size: 36px;
+        margin-left: 4%;
+        text-align: center;
+        float: left;
+        color: white;
+    }
+    .learn_menu ul{
+        list-style: none;
+        font-size: 20px;
+        margin-left: 75%;
+    }
+    .learn_menu li{
+      margin-top: 10px;
+      float: left;
+      padding: 0px 16px 0px 16px;
+    }
+    .learn_menu a{
+      text-decoration: none;
+      color: white;
+    }
+    .current a::after{
+      content: '________________';
+      font-size: 4px;
+      display: block;
+    }
+    .wrapper{
+      display: grid;
+      grid-template-columns: 80% 20%;
+    }
+    .equation{
+      font-size: 60px;
+      text-align: center;
+      margin-top: 160px;
+    }
+    .equation h1{
+      display: inline;
+      padding: 25px;
+    }
+    .ans_options{
+      font-size: 60px;
+      padding: 10px;
+      background-color: lightgrey;
+    }
+    .ans_options h1{
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+    #option1{
+      background-color: #f54141;
+    }
+    #option1:hover{
+      background-color: #fff;
+      color: #f54141;
+    }
+    #option2{
+      background-color: lightseagreen;
+    }
+    #option2:hover{
+      background-color: #fff;
+      color: #f54141;
+    }
+    #option3{
+      background-color: yellowgreen;
+    }
+    #option3:hover{
+      background-color: #fff;
+      color: #f54141;
+    }
+/*==============================================*/
+.alph_section{
+  margin: 0px 60px 30px 60px;
+  font-size: 17px;
+}
+.alph_section h1{
+  text-align: center;
+  color: #253237;
+}
+.alph_img{
+  width: 100px;
+  margin: auto;
+}
+.alphabets{
+  margin: 0 20px 40px 40px;
+}
+
+    /*======== End of LEARN PAGE ======*/
+    
+    /*======== Start of FOOTER Section ======*/
+    footer{
+      clear: both;
+      width: 100%;
+      color: #333333;
+      background-color: lightgrey;
+    }
+    .footer_main_container{
+      margin-left: 0px;
+    }
+    .footer_container{
+      width: 20%;
+      float: left;
+      margin: 10px 2px 10px 2px;
+      text-align: left;
+      text-decoration: none;;
+    }
+    .footer_container_about_us{
+      width: 50%;
+      float: left;
+      margin: 10px;
+    }
+    .footer_container p{
+    margin-top: 6px;
+    }
+    .footer_copyright{
+      clear: both;
+      width: auto;
+       margin: 10px 10px 0px 10px;
+      padding: 10px 10px 10px 0px;
+      text-align: center;
+    }
+    /*======== END of FOOTER Section ======*/
